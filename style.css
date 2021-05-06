@@ -506,6 +506,10 @@ footer {
     width: 25vw;
   }
 
+  .sponsor-grid {
+    column-gap: 3rem;
+  }
+
   .sponsor-logo {
     width: 200px;
   }

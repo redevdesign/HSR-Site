@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="utilities.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Cinzel+Decorative:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Hog Snort Resort</title>
+  </head>
+
+  <body>
+    <div class="body-container">
+      <header id="header">
+        <a href="index.html">
+          <img
+            class="hsr-header-logo"
+            src="./images/HSR SVG logo.svg"
+            alt="HSR logo"
+          />
+        </a>
+
+        <nav class="navbar">
+          <ul id="mobile-menu" class="mobile-menu nav-closed">
+            <li><a onclick="toggleNav()" href="#about-target">About</a></li>
+            <li>
+              <a onclick="toggleNav()" href="#services-target">Services</a>
+            </li>
+            <li><a onclick="toggleNav()" href="#media-target">Media</a></li>
+          </ul>
+          <ul class="fs-menu">
+            <li><a href="#about-target">About</a></li>
+            <li><a href="#services-target">Services</a></li>
+            <li><a href="#media-target">Media</a></li>
+          </ul>
+          <button class="mobile-btn" onclick="toggleNav()">
+            <i id="dropdown-open" class="fa fa-navicon fa-2x"></i>
+          </button>
+        </nav>
+      </header>
+
+      <div id="to-top-target" class="hero-container">
+        <div class="hero-logo-h1-container">
+          <img class="hsr-hero-logo" src="images/HSR SVG logo.svg" />
+          <h1>Hog Snort Resort</h1>
+        </div>
+        <h2 class="hero-h2">Hog Hunting Addiction</h2>
+      </div>
+
+      <div class="hero-tall-grass-partition">
+        <img src="images/Vectorwhite.svg" />
+      </div>
+
+      <main>
+        <section id="about" class="about">
+          <div class="container-90vw">
+            <div class="about-flex">
+              <div>
+                <img
+                  id="about-target"
+                  class="about-img"
+                  src="./images/Wildschein,_Nähe_Pulverstampftor.jpeg"
+                />
+              </div>
+              <div class="about-h2-p">
+                <h2>About Hog Snort Resort</h2>
+                <p>
+                  To say we have hunting in our DNA would be an accurate
+                  statement. We are fortunate to have four generations of
+                  hunting and conservation in our family. While the last twenty
+                  years have been dedicated to hog hunting, we have the honor to
+                  participate and be involved with some of the leading companies
+                  in the hog hunting industry. Whether you are looking for the
+                  ultimate hog attractants, supplimentary feed additives or
+                  possibly entertaining the idea of going into a new gynting
+                  caliber and platform, we have you covered. Maybe you're
+                  looking to experiance your first hog hunt? We have teamed up
+                  with the best in the business! Any questions you may have, we
+                  will be happy to assist because, "We dig the pig"
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="services-target" class="services">
+          <div class="container-90vw">
+            <div>
+              <img
+                class="services-img"
+                src="images/478086eb-d213-40ce-97b9-8c16896cf745.jpeg"
+              />
+            </div>
+          </div>
+
+          <div class="card-container">
+            <div class="flex-card">
+              <img
+                class="card-img"
+                src="images/478086eb-d213-40ce-97b9-8c16896cf745.jpeg"
+                alt="/"
+              />
+              <h3 class="light-color-text">Crop Protection</h3>
+              <p class="light-color-text card-p">
+                Bacon ipsum dolor amet frankfurter alcatra ball tip pancetta
+                flank hamburger picanha. In andouille in incididunt, dolore
+                fugiat spare ribs cupidatat proident adipisicing sint aute anim.
+                Tail tongue incididunt cupidatat qui. Biltong shankle eiusmod
+                pork belly pancetta landjaeger irure incididunt chicken ad pork
+                ham mollit short loin tail. Dolor laborum labore officia,
+                nostrud nisi tempor. Kielbasa laboris ham hock shankle, corned
+                beef aliquip turducken.
+              </p>
+            </div>
+
+            <div class="flex-card">
+              <img
+                class="card-img"
+                src="images/478086eb-d213-40ce-97b9-8c16896cf745.jpeg"
+                alt="/"
+              />
+              <h3 class="light-color-text">Hunting and Baiting Strategies</h3>
+              <p class="light-color-text card-p">
+                Bacon ipsum dolor amet frankfurter alcatra ball tip pancetta
+                flank hamburger picanha. In andouille in incididunt, dolore
+                fugiat spare ribs cupidatat proident adipisicing sint aute anim.
+                Tail tongue incididunt cupidatat qui. Biltong shankle eiusmod
+                pork belly pancetta landjaeger irure incididunt chicken ad pork
+                ham mollit short loin tail. Dolor laborum labore officia,
+                nostrud nisi tempor. Kielbasa laboris ham hock shankle, corned
+                beef aliquip turducken.
+              </p>
+            </div>
+            <div class="flex-card">
+              <img
+                class="card-img"
+                src="images/478086eb-d213-40ce-97b9-8c16896cf745.jpeg"
+                alt="/"
+              />
+              <h3 class="light-color-text">Hog Hunting Addiction</h3>
+              <p class="light-color-text card-p">
+                Bacon ipsum dolor amet frankfurter alcatra ball tip pancetta
+                flank hamburger picanha. In andouille in incididunt, dolore
+                fugiat spare ribs cupidatat proident adipisicing sint aute anim.
+                Tail tongue incididunt cupidatat qui. Biltong shankle eiusmod
+                pork belly pancetta landjaeger irure incididunt chicken ad pork
+                ham mollit short loin tail. Dolor laborum labore officia,
+                nostrud nisi tempor. Kielbasa laboris ham hock shankle, corned
+                beef aliquip turducken.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div class="sponsor-tall-grass-partition">
+          <img src="images/Vectorfffdcc.svg" />
+        </div>
+
+        <section id="media-target" class="media">
+          <div class="container-90vw">
+            <h2>Media</h2>
+            <div class="media-card-grid">
+              <img class="media-img" src="images/HSR sbs & mrtn.jpeg" alt="/" />
+              <img class="media-img" src="images/sbs mud 2.jpeg" alt="/" />
+              <img class="media-img" src="images/HSR sbs in mud.jpeg" alt="/" />
+              <img class="media-img" src="images/HSR sbs mrtn 2.jpeg" alt="/" />
+            </div>
+          </div>
+        </section>
+
+        <section id="sponsors" class="sponsors">
+          <div class="container-90vw">
+            <h2>Sponsors and trusted Affilliates</h2>
+            <div class="sponsor-flex">
+              <div class="sponsor-grid-container">
+                <div class="sponsor-grid">
+                  <div>
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/sbr_ammo/"
+                    >
+                      <img class="sponsor-logo sbr-logo"
+                      src="images/SBRammo_logo.jpeg" alt="SBR Ammo logo" /img>
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/x_wildhub_x/"
+                    >
+                      <img class="sponsor-logo wildhub-logo"
+                      src="images/wildhub_logo.jpeg" alt="Wild Hub logo" /img>
+                    </a>
+                  </div>
+                  <div>
+                    <a target="_blank" href="https://texashogbait.com/">
+                      <img class="sponsor-logo texashogbait-logo"
+                      src="images/TexasHogBait_logo.png" alt="Texas Hog Bait
+                      logo" /img>
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      target="_about"
+                      href="https://www.mortalisoutdooradventures.com/"
+                    >
+                      <img class="sponsor-logo mortalis-logo"
+                      src="images/MortalisOutdoorAdventures_logo.jpeg"
+                      alt="Mortalis Outdoor Adventures logo" /img>
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      target="_about"
+                      href="https://www.instagram.com/Highcaliber.kennels/"
+                    >
+                      <img class="sponsor-logo highcaliber-logo"
+                      src="images/HighCaliberKennels_logo.jpeg" alt="High
+                      Caliber Kennels logo" /img>
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/btcustomknives/"
+                    >
+                      <img class="sponsor-logo btknives-logo"
+                      src="images/BTCustomKnives_image_for_logo.jpeg" alt="BT
+                      Custom Knives logo" /img>
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/sureshotnightvision/"
+                    >
+                      <img class="sponsor-logo sureshot-logo"
+                      src="images/SureShotNightVision_logo_final.png"
+                      alt="SureShot Night Vision logo" /img>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="sponsor-info">
+                <p class="sponsor-p">
+                  Bacon ipsum dolor amet frankfurter alcatra ball tip pancetta
+                  flank hamburger picanha. In andouille in incididunt, dolore
+                  fugiat spare ribs cupidatat proident adipisicing sint aute
+                  anim. Tail tongue incididunt cupidatat qui.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="container-90vw">
+          <div class="footer-logo-name-container">
+            <div class="footer-logo">
+              <img
+                class="footer-logo-img"
+                src="images/HSR SVG logo.svg"
+                alt="Hog Snort Resort logo"
+              />
+            </div>
+            <p class="footer-name">Hog Snort Resort</p>
+          </div>
+          <div class="footer-flex">
+            <div class="footer-navbar">
+              <nav class="footer-nav">
+                <ul class="pad">
+                  <li><a href="#about-target">About</a></li>
+                  <li><a href="#services-target">Services</a></li>
+                  <li><a href="#media-target">Media</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div>
+              <ul class="pad">
+                <li>
+                  <a
+                    href="https://www.instagram.com/hogsnortresort/"
+                    target="_blank"
+                    ><i
+                      class="fa fa-instagram footer-icon"
+                      style="font-size: 2.5rem"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="tel:+9048744884">
+                    <i
+                      class="fa fa-phone footer-icon"
+                      style="font-size: 2.5rem"
+                    ></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="to-top-container">
+              <a class="to-top-icon" href="#to-top-target"
+                ><i class="fa fa-chevron-up" style="font-size: 1.25rem"></i
+              ></a>
+              <a class="to-top-link" href="#to-top-target">Back to top</a>
+            </div>
+            <div>
+              <p class="built-by">
+                2021 Built by
+                <a
+                  class="built-by-link"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/matt-clark-329341211/"
+                  >RedDevDesign</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -529,6 +529,20 @@ footer {
   }
 }
 
+@media (min-width: 1280px) {
+  .about-img {
+    width: 37.5vw;
+  }
+
+  .about-h2-p {
+    width: 37.5vw;
+  }
+
+  .card-container {
+    justify-content: space-around;
+  }
+}
+
 @media (min-width: 1440px) {
   .media {
     background: linear-gradient(#fff 0%, #fff 40%, #fffdcc 40%, #fffdcc 100%);

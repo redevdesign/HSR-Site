@@ -560,6 +560,24 @@ footer {
   }
 }
 
+@media (min-width: 1920px) {
+  .about-img {
+    width: 30vw;
+  }
+
+  .about-h2-p {
+    width: 30vw;
+  }
+
+  .flex-card {
+    width: 20vw;
+  }
+
+  .card-img {
+    width: 20vw;
+  }
+}
+
 @media (min-width: 2560px) {
   .container-90vw {
     max-width: 1400px;

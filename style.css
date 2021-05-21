@@ -126,7 +126,7 @@ li a {
 
 .hero-container {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-    url(./images/wood-1188082_1920.jpg);
+    url(./images/wood-1188082_1920_compressed.jpg);
   height: 731px;
   padding-top: 3rem;
   display: flex;

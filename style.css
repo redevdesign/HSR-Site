@@ -502,6 +502,15 @@ footer {
     display: none;
   }
 
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  .about-p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
   .card-container {
     display: flex;
     flex-direction: row;
@@ -571,6 +580,15 @@ footer {
 
   .about-h2-p {
     width: 40vw;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .about-p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 

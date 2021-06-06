@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="utilities.js"></script>
+    <!-- <script src="utilities.js"></script> -->
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -22,25 +22,29 @@
   <body>
     <div class="body-container">
       <header id="header">
-        <a href="#to-top-target">
-          <img
-            class="hsr-header-logo"
-            src="./images/HSR SVG logo.svg"
-            alt="HSR logo"
-          />
-        </a>
+        <div class="header-letter-logo-wrapper">
+          <p id="header-p" class="header-letters header-letters-show">HSR</p>
+          <a href="#to-top-target">
+            <img
+              id="header-logo"
+              class="hsr-header-logo move-logo"
+              src="./images/HSR SVG logo.svg"
+              alt="HSR logo"
+            />
+          </a>
+        </div>
 
         <nav class="navbar">
           <ul id="mobile-menu" class="mobile-menu nav-closed">
             <li><a onclick="toggleNav()" href="#about-target">About</a></li>
             <li>
-              <a onclick="toggleNav()" href="#services-target">Services</a>
+              <a onclick="toggleNav()" href="#solutions-target">Solutions</a>
             </li>
             <li><a onclick="toggleNav()" href="#media-target">Media</a></li>
           </ul>
           <ul class="fs-menu">
             <li><a href="#about-target">About</a></li>
-            <li><a href="#services-target">Services</a></li>
+            <li><a href="#solutions-target">Solutions</a></li>
             <li><a href="#media-target">Media</a></li>
           </ul>
           <button class="mobile-btn" onclick="toggleNav()">
@@ -59,10 +63,10 @@
           />
           <h1>Hog Snort Resort</h1>
         </div>
-        <h2 class="hero-h2">Hog Hunting Addiction</h2>
+        <h2 id="hero-h2" class="hero-h2">Hog Hunting Addiction</h2>
       </div>
 
-      <div class="hero-tall-grass-partition">
+      <div class="hero-tall-grass-partition" id="grass">
         <img src="images/Vectorwhite.svg" alt="" />
       </div>
 
@@ -99,11 +103,11 @@
           </div>
         </section>
 
-        <section id="services-target" class="services">
+        <section id="solutions-target" class="solutions">
           <div class="container-90vw">
             <div>
               <img
-                class="services-img"
+                class="solutions-img"
                 src="images/478086eb-d213-40ce-97b9-8c16896cf745.jpeg"
                 alt="Hog standing in the woods"
               />
@@ -138,14 +142,22 @@
               />
               <h3 class="light-color-text">Hunting and Baiting Strategies</h3>
               <p class="light-color-text card-p">
-                Bacon ipsum dolor amet frankfurter alcatra ball tip pancetta
-                flank hamburger picanha. In andouille in incididunt, dolore
-                fugiat spare ribs cupidatat proident adipisicing sint aute anim.
-                Tail tongue incididunt cupidatat qui. Biltong shankle eiusmod
-                pork belly pancetta landjaeger irure incididunt chicken ad pork
-                ham mollit short loin tail. Dolor laborum labore officia,
-                nostrud nisi tempor. Kielbasa laboris ham hock shankle, corned
-                beef aliquip turducken.
+                Yes, it's a fact, hogs have an enormous appetite and a sweet
+                tooth. Drawing in hogs is relatively easy.<br />
+                But we are often asked:<br />
+                <i>How do you attract the older alpha boars?</i> And more
+                importantly, <i>how do you hold them to a particular area?</i
+                ><br />
+                Attracting and keeping him in the vicinity takes a different
+                mindset.<br />
+                Here at Hog Snort Resort, years of observing and hunting mature
+                boars we have developed strategies and techniques, along with
+                using the best products available.<br />
+                With our dedicated test sites, and remote undisturbed areas, we
+                are able to document and evaluate products in a 100% natural
+                environment with no interferience caused by human and
+                domesitcated traffic, resulting in a higher sucess rate when
+                targeting older boars.
               </p>
             </div>
             <div class="flex-card">
@@ -304,7 +316,7 @@
               <nav class="footer-nav">
                 <ul class="pad">
                   <li><a href="#about-target">About</a></li>
-                  <li><a href="#services-target">Services</a></li>
+                  <li><a href="#solutions-target">Solutions</a></li>
                   <li><a href="#media-target">Media</a></li>
                 </ul>
               </nav>
@@ -355,5 +367,25 @@
         </div>
       </footer>
     </div>
+    <script>
+      function toggleNav() {
+        var mobileMenu = document.getElementById("mobile-menu");
+        mobileMenu.classList.toggle("nav-closed");
+      }
+
+      const hero = document.getElementById("hero-h2");
+      const text = document.getElementById("header-p");
+      const topOfHero = hero.offsetTop;
+
+      function inPoint() {
+        if (window.scrollY >= topOfHero) {
+          text.classList.add("header-letters-show");
+        } else {
+          text.classList.remove("header-letters-show");
+        }
+      }
+
+      window.addEventListener("scroll", inPoint);
+    </script>
   </body>
 </html>

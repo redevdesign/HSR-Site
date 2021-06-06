@@ -95,10 +95,35 @@ header {
   border-bottom: 1px solid #fffdcc;
 }
 
+.header-letter-logo-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-letters {
+  font-family: "Cinzel Decorative", sans-serif;
+  font-weight: bold;
+  font-size: 0;
+  color: #5cff23;
+  opacity: 0;
+  transition: ease-out 0.4s;
+  float: left;
+}
+
+.header-letters-show {
+  margin-left: 0.5rem;
+  margin-right: 0.1rem;
+  font-size: 2rem;
+  letter-spacing: 0.15rem;
+  opacity: 100;
+  transition: 0.7s;
+}
+
 .hsr-header-logo {
   height: 3.5rem;
   width: auto;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 
 i {
@@ -203,7 +228,7 @@ h2 {
   font-family: "Cinzel Decorative", sans-serif;
 }
 
-.services {
+.solutions {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -212,7 +237,7 @@ h2 {
   margin-bottom: 18rem;
 }
 
-.services-img {
+.solutions-img {
   width: 90vw;
   max-width: 1024px;
   height: auto;
@@ -498,7 +523,12 @@ footer {
     padding: 1rem;
   }
 
-  .services-img {
+  .header-letters-show {
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+  }
+
+  .solutions-img {
     display: none;
   }
 

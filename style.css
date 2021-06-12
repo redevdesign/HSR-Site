@@ -123,9 +123,9 @@ header {
 .header-letters-show {
   margin-left: 0.5rem;
   opacity: 100;
-  transform: none;
+  transform: translateX(0);
   transition: 0.9s;
-  -webkit-transform: none;
+  -webkit-transform: translateX(0);
   -webkit-transition: 0.9s;
   will-change: transform;
 }

@@ -7,9 +7,9 @@ body {
   overflow-x: hidden;
 }
 
-.blocking-bar {
+/*.blocking-bar {
   display: none;
-}
+}*/
 
 .mobile-menu {
   margin-block-start: 0;
@@ -613,7 +613,7 @@ footer {
     justify-content: center;
   }
 
-  .blocking-bar {
+  /*.blocking-bar {
     display: inline-block;
     top: 0;
     width: 80px;
@@ -621,7 +621,7 @@ footer {
     background-color: #fff;
     margin-left: -80px;
     position: fixed;
-  }
+  }*/
 
   .body-container {
     width: 1440px;

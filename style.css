@@ -110,6 +110,8 @@ header {
   opacity: 0;
   transform: translateX(-90px);
   transition: ease-out 0.4s;
+  -webkit-transform: translateX(-90px);
+  -webkit-transition: ease-out 0.4s;
   position: absolute;
   will-change: transform;
 }
@@ -119,20 +121,25 @@ header {
   opacity: 100;
   transform: none;
   transition: 0.9s;
+  -webkit-transform: none;
+  -webkit-transition: 0.9s;
   will-change: transform;
 }
 
 .hsr-header-logo {
   height: 3.5rem;
   width: auto;
-  margin-left: 0.5rem;
+  padding-left: 0.5rem;
   transition: ease-out 0.4s;
+  -webkit-transition: ease-out 0.4s;
   will-change: transform;
 }
 
 .move-logo {
   transform: translateX(90px);
   transition: 0.9s;
+  -webkit-transform: translateX(90px);
+  -webkit-transition: 0.9s;
   will-change: transform;
 }
 

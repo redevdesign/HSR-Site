@@ -53,6 +53,7 @@
           </button>
         </nav>
       </header>
+      <div class="blocking-bar"></div>
 
       <div id="to-top-target" class="hero-container">
         <div class="hero-logo-h1-container">
@@ -375,13 +376,16 @@
 
       const hero = document.getElementById("hero-h2");
       const text = document.getElementById("header-p");
+      const logo = document.getElementById("header-logo");
       const topOfHero = hero.offsetTop;
 
       function inPoint() {
         if (window.scrollY >= topOfHero) {
           text.classList.add("header-letters-show");
+          logo.classList.add("move-logo");
         } else {
           text.classList.remove("header-letters-show");
+          logo.classList.remove("move-logo");
         }
       }
 

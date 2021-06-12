@@ -104,26 +104,46 @@ header {
 .header-letters {
   font-family: "Cinzel Decorative", sans-serif;
   font-weight: bold;
-  font-size: 0;
   color: #5cff23;
+  font-size: 2rem;
+  letter-spacing: 0.15rem;
   opacity: 0;
+  transform: translateX(-90px);
   transition: ease-out 0.4s;
-  float: left;
+  position: absolute;
+  will-change: transform;
 }
 
 .header-letters-show {
   margin-left: 0.5rem;
   margin-right: 0.1rem;
-  font-size: 2rem;
-  letter-spacing: 0.15rem;
   opacity: 100;
-  transition: 0.7s;
+  transform: none;
+  transition: 0.9s;
+  will-change: transform;
 }
 
 .hsr-header-logo {
   height: 3.5rem;
   width: auto;
   margin-left: 0.5rem;
+  transition: ease-out 0.4s;
+  will-change: transform;
+}
+
+.move-logo {
+  transform: translateX(90px);
+  transition: 0.9s;
+  will-change: transform;
+}
+
+.blocking-bar {
+  top: 0;
+  width: 80px;
+  height: 55px;
+  background-color: #fff;
+  margin-left: -80px;
+  position: fixed;
 }
 
 i {

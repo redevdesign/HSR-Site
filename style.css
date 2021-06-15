@@ -134,7 +134,7 @@ header {
 .hsr-header-logo {
   height: 3.5rem;
   width: auto;
-  padding-left: 0.5rem;
+  margin-left: 0.5rem;
   background: transparent;
 }
 

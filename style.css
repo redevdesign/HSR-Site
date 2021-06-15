@@ -129,6 +129,7 @@ header {
 .header-letters-show {
   opacity: 100;
   transition: 0.9s;
+  overflow: visible;
 }
 
 .hsr-header-logo {

@@ -22,12 +22,12 @@
   <body>
     <div class="body-container">
       <header id="header">
-        <div class="header-letter-logo-wrapper">
-          <p id="header-p" class="header-letters">HSR</p>
+        <div id="letter-logo-wrapper" class="header-letter-logo-wrapper">
+          <p id="header-letters" class="header-letters">HSR</p>
           <a href="#to-top-target">
             <img
               id="header-logo"
-              class="hsr-header-logo move-logo"
+              class="hsr-header-logo"
               src="./images/HSR SVG logo.svg"
               alt="HSR logo"
             />
@@ -375,22 +375,17 @@
       }
 
       const hero = document.getElementById("hero-h2");
-      const text = document.getElementById("header-p");
-      const logo = document.getElementById("header-logo");
+      const wrapper = document.getElementById("letter-logo-wrapper");
+      const headerLetters = document.getElementById("header-letters");
       const topOfHero = hero.offsetTop;
 
       function inPoint() {
         if (window.scrollY >= topOfHero) {
-          text.classList.add("header-letters-show");
-          logo.classList.add("move-logo");
+          wrapper.classList.add("header-letter-logo-wrapper-move");
+          headerLetters.classList.add("header-letters-show");
         } else {
-          text.classList.remove("header-letters-show");
-          logo.classList.remove("move-logo");
-        }
-      }
-
-      function hideNavText() {
-        if (window.scrollY == 0) {
+          wrapper.classList.remove("header-letter-logo-wrapper-move");
+          headerLetters.classList.remove("header-letters-show");
         }
       }
 

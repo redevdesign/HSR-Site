@@ -130,6 +130,10 @@ header {
   will-change: transform;
 }
 
+.hidden {
+  display: none;
+}
+
 .hsr-header-logo {
   height: 3.5rem;
   width: auto;

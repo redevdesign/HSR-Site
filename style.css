@@ -103,6 +103,7 @@ header {
   top: 0;
   max-width: 1440px;
   border-bottom: 1px solid #fffdcc;
+  will-change: transform;
 }
 
 .header-letter-logo-wrapper {
@@ -111,14 +112,11 @@ header {
   align-items: center;
   margin-left: -75px;
   transition: ease 0.4s;
-  -webkit-transition: ease-out 0.4s;
 }
 
 .header-letter-logo-wrapper-move {
   transform: translateX(90px);
   transition: ease 0.9s;
-  -webkit-transform: translateX(90px);
-  -webkit-transition: 0.9s;
 }
 
 .header-letters {

@@ -21,6 +21,14 @@
 
   <body>
     <div class="body-container">
+      <ul id="mobile-menu" class="mobile-menu nav-closed">
+        <li><a onclick="toggleNav()" href="#about-target">About</a></li>
+        <li>
+          <a onclick="toggleNav()" href="#solutions-target">Solutions</a>
+        </li>
+        <li><a onclick="toggleNav()" href="#media-target">Media</a></li>
+      </ul>
+
       <header id="header">
         <div id="letter-logo-wrapper" class="header-letter-logo-wrapper">
           <p id="header-letters" class="header-letters">HSR</p>
@@ -35,13 +43,6 @@
         </div>
 
         <nav class="navbar">
-          <ul id="mobile-menu" class="mobile-menu nav-closed">
-            <li><a onclick="toggleNav()" href="#about-target">About</a></li>
-            <li>
-              <a onclick="toggleNav()" href="#solutions-target">Solutions</a>
-            </li>
-            <li><a onclick="toggleNav()" href="#media-target">Media</a></li>
-          </ul>
           <ul class="fs-menu">
             <li><a href="#about-target">About</a></li>
             <li><a href="#solutions-target">Solutions</a></li>

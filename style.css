@@ -19,12 +19,13 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 1rem;
-  position: absolute;
+  position: sticky;
   background-color: #761a1a;
   left: 0;
   right: 0;
   top: 3.5rem;
   transform: translateY(0);
+  transition-duration: 0.5s;
   border-top: 1px solid #fffdcc;
   border-bottom: 1px solid #fffdcc;
 }
@@ -46,8 +47,9 @@ body {
   border-width: 0;
 }
 
-.navbar .nav-closed {
+.nav-closed {
   transform: translateY(-120%);
+  transition-duration: 0.5s;
 }
 
 .mobile-menu li {
@@ -168,6 +170,7 @@ li a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: -300px;
 }
 
 .hero-logo-h1-container {
@@ -466,6 +469,7 @@ footer {
   .hero-container {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
       url(./images/wood-1188082_1920.jpg);
+    margin-top: 0;
   }
 
   .hero-logo-h1-container {

@@ -25,7 +25,7 @@ body {
   right: 0;
   top: 3.5rem;
   transform: translateY(0);
-  transition-duration: 0.5s;
+  transition: ease 0.5s;
   border-top: 1px solid #fffdcc;
   border-bottom: 1px solid #fffdcc;
 }
@@ -49,7 +49,7 @@ body {
 
 .nav-closed {
   transform: translateY(-120%);
-  transition-duration: 0.5s;
+  transition: ease-out 0.5s;
 }
 
 .mobile-menu li {
@@ -106,16 +106,15 @@ header {
   flex-direction: row;
   align-items: center;
   margin-left: -75px;
-  transition: ease-out 0.4s;
+  transition: ease 0.4s;
   -webkit-transition: ease-out 0.4s;
 }
 
 .header-letter-logo-wrapper-move {
   transform: translateX(90px);
-  transition: 0.9s;
+  transition: ease 0.9s;
   -webkit-transform: translateX(90px);
   -webkit-transition: 0.9s;
-  will-change: transform;
 }
 
 .header-letters {

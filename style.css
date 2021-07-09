@@ -273,6 +273,7 @@ h2 {
 
 h3 {
   font-family: "Cinzel Decorative", sans-serif;
+  font-size: 1.3rem;
 }
 
 p {
@@ -425,22 +426,6 @@ footer {
 
 .pad li a {
   font-size: 1.25rem;
-}
-
-.to-top-container {
-  padding-top: 1rem;
-}
-
-.to-top-icon i {
-  color: #761a1a;
-  margin: 0;
-}
-
-.to-top-link {
-  text-decoration: none;
-  color: #761a1a;
-  font-family: "Cinzel Decorative", sans-serif;
-  font-weight: bold;
 }
 
 .built-by {

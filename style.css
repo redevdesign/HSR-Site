@@ -53,7 +53,7 @@ body {
 
 .nav-closed {
   transform: translateY(-120%);
-  transition: ease-out 0.5s;
+  transition: ease 0.5s;
 }
 
 .mobile-menu li {
@@ -303,6 +303,7 @@ p {
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   grid-gap: 1rem;
+  grid-row-gap: 0.5rem;
 }
 
 .sponsors {

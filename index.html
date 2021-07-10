@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <script src="utilities.js"></script> -->
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script src="utilities.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -204,16 +208,19 @@
                 src="images/HSR sbs in mud.jpeg"
                 alt="decorative image"
               />
+
               <img
                 class="media-img"
                 src="images/IMG_20210411_183802_110.jpg"
                 alt="decorative image"
               />
+
               <img
                 class="media-img"
                 src="images/Screenshot_20210708-111024_Instagram.jpg"
                 alt="decorative image"
               />
+
               <img
                 class="media-img"
                 src="images/HSR sbs & mrtn.jpeg"
@@ -384,11 +391,7 @@
       </footer>
     </div>
     <script>
-      function toggleNav() {
-        var mobileMenu = document.getElementById("mobile-menu");
-        mobileMenu.classList.toggle("nav-closed");
-      }
-
+      // navbar letter slide in funtion
       const hero = document.getElementById("hero-h2");
       const wrapper = document.getElementById("letter-logo-wrapper");
       const headerLetters = document.getElementById("header-letters");

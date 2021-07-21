@@ -531,10 +531,6 @@ footer {
   align-self: center;
 }
 
-.sa-body {
-  flex-direction: column;
-}
-
 .sa-main {
   background-color: #fffdcc;
   display: flex;
@@ -563,6 +559,8 @@ footer {
 }
 
 .sa-grass-partition {
+  display: flex;
+  justify-content: center;
   background-color: #fffdcc;
   overflow: hidden;
   margin: 0 0 -5rem 0;

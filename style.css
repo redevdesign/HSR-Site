@@ -532,6 +532,10 @@ footer {
 }
 
 .sa-body {
+  flex-direction: column;
+}
+
+.sa-main {
   background-color: #fffdcc;
   display: flex;
   flex-direction: column;
@@ -559,7 +563,9 @@ footer {
 }
 
 .sa-grass-partition {
+  background-color: #fffdcc;
   overflow: hidden;
+  margin: 0 0 -5rem 0;
 }
 
 .sa-footer {

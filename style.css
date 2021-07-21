@@ -257,7 +257,6 @@ h2 {
   align-items: center;
   background-color: #761a1a;
   padding-bottom: 5rem;
-  margin-bottom: 18rem;
 }
 
 .solutions-img {
@@ -289,15 +288,11 @@ p {
   line-height: 1.5rem;
 }
 
-.sponsor-tall-grass-partition {
-  overflow: hidden;
-  margin-bottom: -40rem;
-}
-
 .media {
+  background-color: #fffdcc;
   display: flex;
   justify-content: center;
-  margin-top: 4rem;
+  padding: 0.5rem 0 6rem 0;
 }
 
 .media-img {
@@ -309,18 +304,91 @@ p {
 .media-card-grid {
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto auto auto;
   grid-gap: 1rem;
-  grid-row-gap: 0.5rem;
+}
+
+/* testimonial styles */
+
+.testimonials-grass-partition {
+  background-color: #fffdcc;
+  overflow: hidden;
+  margin: -5rem 0 -5rem 0;
+}
+
+.testimonials {
+  background-color: #761a1a;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0 6rem 0;
+}
+
+.testimonial-h2 {
+  color: #fffdcc;
+}
+
+.testimonial-wrapper {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 7.5px;
+}
+
+.testimonial-img {
+  height: 3.5rem;
+  width: 3.5rem;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.testimonial-p {
+  text-indent: 1rem;
+  font-style: italic;
+}
+
+.testimonial-credentials a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  float: right;
+  text-decoration: none;
+  color: black;
+}
+
+.testimonial-credentials p {
+  font-family: "inter", Noto Sans, sans-serif;
+  font-size: 1.25rem;
+  padding-right: 0.25rem;
+}
+
+.testimonial-icon {
+  color: #761a1a;
+}
+
+.test-link-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.testimonials-link {
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.15rem;
+  color: black;
+  background-color: #fffdcc;
+  padding: 0.75rem;
+  border-radius: 5px;
 }
 
 .sponsors {
   background-color: #fffdcc;
   display: flex;
   justify-content: center;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-  padding-bottom: 5rem;
+  padding: 0.5rem 0 5rem 0;
 }
 
 .sponsor-grid-container {
@@ -372,6 +440,13 @@ p {
   margin-top: 4rem;
 }
 
+.white-grass-partition {
+  background-color: #fffdcc;
+  overflow: hidden;
+  margin: -5rem 0 -5rem 0;
+  height: 349px;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -383,7 +458,7 @@ footer {
   border-radius: 50%;
   width: 4rem;
   height: 4rem;
-  margin-top: -6rem;
+  margin-top: -2.25rem;
 }
 
 .footer-logo-img {
@@ -437,6 +512,10 @@ footer {
   font-size: 1.25rem;
 }
 
+.fa-envelope-o {
+  margin-top: -0.1rem;
+}
+
 .built-by {
   margin-top: 6rem;
   font-size: 0.8rem;
@@ -445,6 +524,46 @@ footer {
 .built-by-link {
   color: #000;
   text-decoration: none;
+}
+
+/* styles specific to stand alone testimoonial page */
+.sa-header {
+  align-self: center;
+}
+
+.sa-body {
+  background-color: #fffdcc;
+  display: flex;
+  flex-direction: column;
+}
+
+.sa-testimonials-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sa-testimonial-h1-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 8rem 0 5rem 0;
+}
+
+.testimonial-h1 {
+  color: #761a1a;
+  margin: 0;
+}
+
+.sa-testimonial-wrapper {
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.45);
+  margin-bottom: 2.5rem;
+}
+
+.sa-grass-partition {
+  overflow: hidden;
+}
+
+.sa-footer {
+  background-color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -508,15 +627,6 @@ footer {
     align-items: center;
   }
 
-  .media {
-    background: linear-gradient(#fff 0%, #fff 70%, #fffdcc 70%, #fffdcc 100%);
-  }
-
-  .sponsors {
-    padding-top: 4rem;
-    margin-top: 0;
-  }
-
   .sponsor-flex {
     display: flex;
     flex-direction: row;
@@ -529,10 +639,6 @@ footer {
 }
 
 @media (min-width: 1024px) {
-  .media {
-    background: linear-gradient(#fff 0%, #fff 50%, #fffdcc 50%, #fffdcc 100%);
-  }
-
   .fs-menu li {
     padding: 1rem;
   }
@@ -597,10 +703,6 @@ footer {
 }
 
 @media (min-width: 1440px) {
-  .media {
-    background: linear-gradient(#fff 0%, #fff 40%, #fffdcc 40%, #fffdcc 100%);
-  }
-
   body {
     display: flex;
     justify-content: center;

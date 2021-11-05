@@ -558,6 +558,7 @@ footer {
 .testimonial-h1 {
   color: #761a1a;
   margin: 0;
+  text-shadow: none;
 }
 
 .sa-testimonial-wrapper {

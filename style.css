@@ -415,32 +415,33 @@ p {
 }
 
 .texashogbait-logo {
+  margin-top: -5rem;
+}
+
+.nighthawk-logo {
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+.highcaliber-logo {
   margin-top: -5.5rem;
 }
 
-/* .mortalis-logo {
-  margin-top: 3rem;
-} */
-
-.highcaliber-logo {
-  margin-top: 2rem;
-}
-
 .btknives-logo {
-  margin-top: -4.5rem;
+  margin-top: 2rem;
   border-radius: 50%;
 }
 
 .sureshot-logo {
-  margin-top: 2rem;
+  margin-top: -5.5rem;
 }
 
 .fireitup-logo {
-  margin-top: -4rem;
+  margin-top: 2rem;
 }
 
 .firescience-logo {
-  margin-top: 2rem;
+  margin-top: -5.5rem;
 }
 
 .sponsor-p {
@@ -598,7 +599,7 @@ footer {
 
   .hero-container {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-      url(./images/wood-1188082_1920.jpg);
+      url(./images/wood-1188082_1920_compressed.jpg);
     margin-top: 0;
   }
 

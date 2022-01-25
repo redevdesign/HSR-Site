@@ -444,8 +444,10 @@ p {
   margin-top: -5.5rem;
 }
 
-.sponsor-p {
-  margin-top: 4rem;
+.ppeoutfitters-logo {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  /* margim bottom only applies to last logo- if another is added, move bottom margin to that one */
 }
 
 .white-grass-partition {

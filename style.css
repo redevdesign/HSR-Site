@@ -645,6 +645,10 @@ footer {
     font-size: 1.75rem;
   }
 
+  .sponsor-h2 {
+    text-align: center;
+  }
+
   .about-p {
     font-size: 1.1rem;
     line-height: 1.5rem;

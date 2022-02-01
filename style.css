@@ -408,46 +408,20 @@ p {
 .sponsor-logo {
   width: 150px;
   height: auto;
-}
-
-.wildhub-logo {
-  margin-top: 3rem;
-}
-
-.texashogbait-logo {
-  margin-top: -5rem;
+  margin: 1rem 0rem;
 }
 
 .nighthawk-logo {
-  margin-top: 2rem;
   border-radius: 5px;
 }
 
 .highcaliber-logo {
-  margin-top: -5.5rem;
+  margin-bottom: 4rem;
+  /* margim bottom only applies to last logo- if another is added, move bottom margin to that one */
 }
 
 .btknives-logo {
-  margin-top: 2rem;
   border-radius: 50%;
-}
-
-.nightvisionnetwork-logo {
-  margin-top: -5.5rem;
-}
-
-.fireitup-logo {
-  margin-top: 2rem;
-}
-
-.firescience-logo {
-  margin-top: -5.5rem;
-}
-
-.ppeoutfitters-logo {
-  margin-top: 2rem;
-  margin-bottom: 4rem;
-  /* margim bottom only applies to last logo- if another is added, move bottom margin to that one */
 }
 
 .white-grass-partition {

@@ -723,6 +723,16 @@ footer {
   }
 }
 
+@media (min-width: 1366px) {
+  .about-img {
+    width: 35vw;
+  }
+
+  .about-h2-p {
+    width: 35vw;
+  }
+}
+
 @media (min-width: 1440px) {
   body {
     display: flex;
